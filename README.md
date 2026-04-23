@@ -1,21 +1,48 @@
-# Student-Record-Management-System
-Student Record Management System is a software solution for tracking and managing student data. 
+# 🎓 Student Record Management System (SRMS)
 
-##### The information contained in SRMS records are the name, roll number, marks and grades of the student. So, the simple file handling cum record management operations users can perform in this project are :-
+![C++](https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=c%2B%2B)
+![Status](https://img.shields.io/badge/Project-Active-success?style=for-the-badge)
+![File Handling](https://img.shields.io/badge/Type-File%20Handling-orange?style=for-the-badge)
 
-* Add new record
-* Show existing records
-* Modify records
-* Search records
-* Delete records
+---
 
-& all the records will be stored in student.dat file. 
+## 📌 Project Overview
 
-##### Tools and Technologies used in the Project :-
+The **Student Record Management System (SRMS)** is a software application designed to efficiently manage and track student data. It uses file handling to store and process student records in a structured way.
 
-* Language - C++
-* IDE - VS Code
+Each student record includes:
+- Name
+- Roll Number
+- Marks
+- Grades
 
-## License
+All data is stored in the `student.dat` file.
 
-Code released under [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) 
+---
+
+## ⚙️ Features
+
+- ➕ Add new student record  
+- 📋 Show all existing records  
+- ✏️ Modify student records  
+- 🔍 Search for specific records  
+- 🗑️ Delete student records  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- 💻 Language: C++  
+- 🧑‍💻 IDE: Visual Studio Code  
+- 📁 Storage: File Handling (`student.dat`)  
+
+---
+
+## 📂 File Structure
+
+```text id="srms2"
+Student-Record-Management-System/
+│
+├── srms.cc
+├── student.dat
+├── README.md
